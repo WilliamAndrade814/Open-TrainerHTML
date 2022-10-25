@@ -1,0 +1,323 @@
+
+body {
+  background-color: #21334F;
+  margin: 0;
+  padding: 0;
+  min-height: 100%;
+  width: 100%;
+}
+
+.conteudo {
+    background-image: url('imagens/fundos1.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: absolute;
+    height: 100%;
+    width: 100%;
+}
+
+header {
+    margin-left: 4%;
+    margin-right: 4%;
+    display: flex;
+    justify-content: space-between;
+}
+
+main {
+    margin-left: 4%;
+    margin-right: 4%;
+  }
+
+.links {
+  width: 350px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.links a {
+  font-size: 22px;
+  margin: auto;
+  color: white;
+}
+
+a {
+  text-decoration: none;
+}
+
+a:hover {
+  color: #01bd56;
+  transition-duration: 0.4s;
+}
+
+.button2 {
+  background-color: #09ad53;
+  color: white;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.button2:hover {
+  background-color: #21334F;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.titulo {
+  margin-top: 100px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  margin-bottom: 20%;
+}
+
+.sobre {
+  display: flex;
+  justify-content: space-around;
+  margin-top: 100px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.sobre div {
+  max-width: 550px;
+}
+
+.sobre p {
+  display: flex;
+  flex-wrap: wrap;
+  font-weight: normal;
+}
+
+.verde {
+  color: #01bd56;
+}
+
+.sobre .verde {
+  color: #01bd56;
+}
+
+.tech {
+  display: flex;
+  justify-content: space-evenly;
+  flex-wrap: wrap;
+}
+
+.sobre-tech {
+  margin-bottom: 50px;
+}
+
+.tech p {
+  max-width: 550px;
+  text-align: center;
+}
+
+.align {
+  text-align: center;
+}
+
+.saiba-mais {
+  text-align: center;
+  background-color: #09ad53;
+  color: white;
+  border: none;
+  width: 300px;
+  height: 50px;
+  font-size: 25px;
+  font-weight: bold;
+  border-radius: 50px;
+}
+
+.saiba-mais:hover {
+  background-color: black;
+  color: white;
+  transition-duration: 0.4s;
+}
+
+.video {
+  margin-top: 15%;
+  margin-left: 1%;
+}
+
+.video h1 {
+  color: #01bd56;
+  font-size: 50px;
+  text-align: center;
+  text-shadow: 1px 1px #007434;
+}
+
+.video p {
+  color: white;
+  margin-top: 70px;
+  margin-left: 4%;
+  font-size: 20px;
+}
+
+.video .box{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: auto;
+  background-color: #09ad53;
+  width: 300px;
+  height: 300px;
+  border-radius: 50px;
+}
+
+.video .text{
+  margin: auto;
+  height: auto;
+  min-width: 300px;
+  width: 40%;
+  padding-bottom: 7%;
+}
+
+.box video{
+  width: 95%;
+  border-radius: 50px;
+}
+
+footer{
+  margin-top: 100px;
+}
+
+.footer-info-mobile {
+  display: flex;
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  margin-top: 20px;
+  position: relative;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column-reverse;
+  box-sizing: border-box;
+}
+
+.footer-logo {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 8px;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+  box-sizing: border-box;
+  
+}
+
+.nav-list{
+width: 100%;
+display: block;
+}
+
+.ul-list-mobile {
+  display: flex;
+  list-style-type: none;
+  margin-bottom: 8px;
+  justify-content: center;
+  flex-wrap: wrap;
+  width: 100%;
+  padding-left: 0;
+  padding-top: 0;
+  box-sizing: border-box;
+  margin-block-start: 1em;
+  margin-block-end: 1em;
+  margin-inline-start: 0px;
+  margin-inline-end: 0px;
+  padding-inline-start: 40px;
+}
+
+.ul-list-mobile a {
+  color:white;
+}
+
+
+.list-item {
+  color:white;
+  margin-right: 16px;
+  display: list-item;
+}
+
+@media screen and (min-width: 800px) {
+  .footer-info-mobile {
+    display: none;
+  }
+}
+
+.ul-list {
+  font-size: 16px;
+  padding-top: 20px;
+  padding-bottom: 8px;
+  margin-top: 20px;
+  display: flex;
+  list-style-type: none;
+  justify-content: space-around;
+  
+}
+
+.logo {
+  display: flex;
+  vertical-align: middle;
+  color: rgb(115, 115, 115);
+}
+
+@media screen and (max-width: 800px) {
+  .footer-info {
+    display: none;
+  }
+}
+.empty {
+  font-size: 12px;
+  color: var(--color-fg-muted);
+  box-sizing: border-box;
+}
+
+.sobre h1 {
+  color: white;
+}
+
+.contato {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-top: 100px;
+  font-size: 25px;
+  color: white;
+  font-weight: bold;
+  flex-wrap: wrap;
+}
+
+.contato div {
+  width: 50%;
+  min-width: 400px;
+  margin-bottom: 50px;
+}
+
+.contact-list {
+  list-style-type: none;
+  text-align: left;
+  text-decoration: none;
+}
+
+.contact-list a {
+  color: white;
+}
+
+.contact-list a:hover {
+  color: #01bd56;
+  transition-duration: 00.4s;
+}
+
+.ul-list a {
+  color: white;
+}
+
+.ul-list a:hover {
+  color: #01bd56;
+  transition-duration: 00.4s;
+}
